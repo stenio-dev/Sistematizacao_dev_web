@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Vida & Saúde | Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Seu CSS Personalizado -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-pastel">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-secondary" href="index.html">🏥 VIDA & SAÚDE</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Início</a>
+                <a class="nav-link" href="servicos.html">Serviços</a>
+                <a class="nav-link" href="equipe.html">Equipe</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center py-5 bg-white mb-5">
+        <div class="container">
+            <h1 class="display-5 text-dark">Excelência em Cuidado Médico</h1>
+            <p class="lead text-muted">Ambiente acolhedor e tecnologia de ponta para sua saúde.</p>
+        </div>
+    </header>
+
+    <main class="container mb-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="h3 mb-4">Sobre a Clínica</h2>
+                <p>Nossa clínica foi reformulada para oferecer o que há de mais moderno em atendimento humanizado. Focamos na sobriedade e eficiência para garantir seu bem-estar.</p>
+            </div>
+            <div class="col-md-6">
+                <!-- Imagem local que você salvará em assets/img -->
+                <img src="assets/img/fachada.jpg" class="img-fluid rounded shadow" alt="Fachada da Clínica">
+            </div>
+        </div>
+    </main>
+
+    <!-- Formulário no Index para facilitar -->
+    <section class="bg-light py-5">
+        <div class="container" style="max-width: 500px;">
+            <h2 class="h4 text-center mb-4">Agende uma Visita</h2>
+            <form id="formContato" class="bg-white p-4 rounded shadow-sm">
+                <div class="mb-3">
+                    <label class="form-label">Nome</label>
+                    <input type="text" class="form-control bg-light" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">E-mail</label>
+                    <input type="email" class="form-control bg-light" required>
+                </div>
+                <div class="row">
+                    <div class="col-8 mb-3"><label class="form-label">Cidade</label><input type="text" class="form-control bg-light"></div>
+                    <div class="col-4 mb-3"><label class="form-label">UF</label><input type="text" class="form-control bg-light"></div>
+                </div>
+                <button type="submit" class="btn btn-secondary w-100">Enviar Solicitação</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 text-muted">
+        <small>© 2023 Clínica Vida & Saúde - Ética e Cuidado.</small>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
